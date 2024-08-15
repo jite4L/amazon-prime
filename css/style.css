@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amazon Ember', sans-serif;
+    /* font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif; */
+
+
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+
+
+}
+
+header {
+    background-image:linear-gradient(to right,#000 40%, transparent 58%) ,url(../images/3.jpg);
+    background-size: cover;
+    color: white;
+    min-height: 80vh;
+    /* margin-top: 20px; */
+
+}
+
+
+.navbar {
+    width: 1300px;
+    padding: 0 29px 0 20px;
+    height: 6vh;
+    background-color: #00050d;
+    display: flex;
+    justify-content: center;
+    position:fixed;
+   
+
+
+    gap: 70px;
+}
+
+.img {
+    width: 8%;
+    /* margin: auto; */
+    height: 3vh;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.img-p {
+    width: 2%;
+    height: 4vh;
+    /* margin: auto; */
+    margin: 7px 0 5px 0;
+    cursor: pointer;
+}
+
+.hero-section {
+    /* border: 2px solid red; */
+
+    margin: 3rem 0 0 2rem;
+    width: 80%;
+    float: left;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 1.5;
+
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.sign-btn {
+    padding: 17px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0F79AF;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    /* margin-top: 100px; */
+
+
+}
+
+.sign-btn-down {
+    padding: 17px 90px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0F79AF;
+    border: none;
+    border-radius: 2px;
+    margin-top: -10px;
+    cursor: pointer;
+
+
+}
+
+.line {
+    display: flex;
+    margin: 1px 20px;
+    /* padding: 20px 0 0 0; */
+    padding: 10px 1px 1px;
+
+    width: 235px;
+}
+
+.left-line {
+    margin: 12px 0 25px -19px;
+    width: 100px;
+    height: 0;
+    float: left;
+
+}
+
+.right-line {
+    margin: 12px 0 25px 20px;
+    height: 0;
+    width: 100px;
+    float: right;
+}
+
+.line p {
+    margin: 0 0 0 20px;
+    font-size: 15px;
+}
+
+/* ---------section one--------- */
+.top {
+    background-image:linear-gradient(to left,#000 40%, transparent 58%) ,url(../images/2.jpg);
+    background-size: cover;
+    color: white;
+    min-height: 70vh;
+
+}
+
+section {
+    margin: 0 auto;
+}
+
+.section-one {
+    width: 600px;
+    height: 300px;
+    padding-left: 55%;
+    padding-top: 80px;
+
+}
+
+.section-one h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.section-one p{
+    line-height: 1.5;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.button{
+    padding-left: 55%;
+    margin-top: 40px;
+}
+.section-one-btn{
+    padding:   17px 90px;
+    background-color:  #0F79AF;
+    color: white;
+    /* margin-top:30px; */
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.page{
+    background-color: white;
+
+}
+.box{
+    align-items: center;
+    display: flex;
+}
+.circle-row{
+    text-align: center;
+    width: 60%;
+    margin: 50px 50px; 
+}
+
+.circle-row h2{
+
+font-size: 36px;
+}
+.paragraph{
+    
+    font-size: 20px;
+    margin-top: 15px;
+
+
+   
+}
+.down{
+    background-image:linear-gradient(to right,#000 40%, transparent 58%) ,url(../images/7.jpg); ;
+    height:78vh;
+}
+.last{
+    width: 90%;
+    padding-top:90px ;
+    color: white;
+    margin-left: 40px;
+
+}
+.last h1{
+    font-size: 40px;
+    
+}
+.last p{
+    font-size: 21px;
+    margin-top: 20px;
+
+}
+/* .last-btn{
+    padding:   17px 90px;
+    background-color:  #0F79AF;
+    color: white;
+    /* margin-top:30px; 
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+} */
+.last-btn-one{
+
+    padding:   17px 90px;
+    background-color:  #0F79AF;
+    color: white;
+    /* margin-top:30px; */
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+  
+}
+.last-btn{
+    margin-top:50px ;
+}
+footer{
+    background-color: #222222;
+    height: 20vh;
+    
+}
+.ftr{
+    text-align: center;
+    padding-top: 45px ;
+}
